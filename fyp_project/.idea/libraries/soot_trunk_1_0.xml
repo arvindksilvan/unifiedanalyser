@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="soot-trunk-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../hybridflow/libs/soot/soot-trunk/1.0/soot-trunk-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

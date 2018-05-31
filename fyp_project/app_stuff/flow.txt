@@ -1,0 +1,15 @@
+1 - <CordovaPlugin>
+
+[boolean execute]
+===================================
+2 - <CordovaPluginManager>
+
+[wasValidAction = <CordovaPlugin>.execute] // -> (void execute)
+===================================
+3 - <CordovaBridge>
+
+[this.<CordovaPluginManager>.exec] // -> (String jsExec)
+===================================
+4 - <SystemExposedJSAPI>
+
+[this.<CordovaBridge>.jsExec] // -> (String exec) @JavaScriptInterface

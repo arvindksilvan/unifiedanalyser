@@ -1,0 +1,4 @@
+<org.apache.cordova.device.Device: java.lang.String getSerialNumber()> -> _SOURCE_
+<org.apache.cordova.device.Device: java.lang.String getUuid()> -> _SOURCE_
+#<org.apache.cordova.device.Device: java.lang.String getModel()> -> _SOURCE_
+<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)> android.permission.SEND_SMS -> _SINK_

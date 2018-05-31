@@ -1,0 +1,870 @@
+# Packages to include in the analysis
+^android.
+^java.
+^org.apache.http.
+^org.joda.time.
+^org.json.
+
+<java.util.Stack: java.lang.Object push(java.lang.Object)>
+
+<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>
+-<java.util.Map: void clear()>
+
+<java.util.TreeMap: void <init>(java.util.Map)>
+<java.util.HashMap: void <init>(java.util.Map)>
+<java.util.WeakHashMap: void <init>(java.util.Map)>
+<java.util.ConcurrentHashMap: void <init>(java.util.Map)>
+<java.util.LinkedHashMap: void <init>(java.util.Map)>
+
+<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>
+<java.util.Map: java.lang.Object putAll(java.util.Map)>
+
+<java.util.List: boolean add(java.lang.Object)>
+<java.util.List: void add(int,java.lang.Object)>
+<java.util.List: boolean addAll(java.util.Collection)>
+<java.util.List: boolean addAll(int,java.util.Collection)>
+-<java.util.List: void clear()>
+<java.util.List: java.util.Iterator iterator()>
+~<java.util.List: int size()>
+
+<java.util.Iterator: java.lang.Object next()>
+
+<java.util.ArrayList: void <init>(java.util.Collection)>
+<java.util.LinkedList: void <init>(java.util.Collection)>
+
+<java.util.Set: boolean add(java.lang.Object)>
+<java.util.Set: boolean addAll(java.util.Collection)>
+-<java.util.Set: void clear()>
+~<java.util.Set: int size()>
+
+<java.util.Collection: boolean add(java.lang.Object)>
+<java.util.Collection: boolean addAll(java.util.Collection)>
+-<java.util.Collection: void clear()>
+~<java.util.Collection: int size()>
+
+<java.util.Vector: void <init>(java.util.Collection)>
+<java.util.Vector: void add(int,java.lang.Object)>
+<java.util.Vector: boolean add(java.lang.Object)>
+<java.util.Vector: boolean addAll(java.util.Collection)>
+<java.util.Vector: void addElement(java.lang.Object)>
+-<java.util.Vector: void clear()>
+~<java.util.Vector: int size()>
+
+<java.util.Queue: boolean add(java.lang.Object)>
+<java.util.Queue: boolean offer(java.lang.Object)>
+<java.util.Queue: java.lang.Object remove()>
+<java.util.Queue: java.lang.Object poll()>
+<java.util.Queue: java.lang.Object element()>
+<java.util.Queue: java.lang.Object peek()>
+~<java.util.Queue: int size()>
+
+<java.lang.StringBuilder: void <init>(java.lang.String)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(boolean)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(char)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(char[])>
+<java.lang.StringBuilder: java.lang.StringBuilder append(char[],int,int)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(double)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(float)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(int)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(long)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.CharSequence)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.CharSequence,int,int)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.StringBuffer)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,boolean)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,char)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,char[])>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,char[],int,int)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,double)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,float)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,int)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,long)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,java.lang.Object)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,java.lang.String)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,java.lang.CharSequence)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,java.lang.CharSequence,int,int)>
+
+<java.lang.StringBuffer: void <init>(java.lang.String)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(boolean)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(char)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(char[])>
+<java.lang.StringBuffer: java.lang.StringBuffer append(char[],int,int)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(double)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(float)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(int)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(long)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.CharSequence)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.CharSequence,int,int)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.StringBuffer)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,boolean)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,char)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,char[])>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,char[],int,int)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,double)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,float)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,int)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,long)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,java.lang.Object)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,java.lang.String)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,java.lang.CharSequence)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,java.lang.CharSequence,int,int)>
+
+<java.lang.String: void <init>(byte[])>
+<java.lang.String: void <init>(byte[],int,int)>
+<java.lang.String: void <init>(byte[],int,int,java.lang.String)>
+<java.lang.String: void <init>(byte[],java.lang.String)>
+<java.lang.String: void <init>(char[])>
+<java.lang.String: void <init>(char[],int,int)>
+<java.lang.String: void <init>(int[],int,int)>
+<java.lang.String: void <init>(java.lang.String)>
+<java.lang.String: void <init>(java.lang.StringBuffer)>
+<java.lang.String: void <init>(java.lang.StringBuilder)>
+
+<java.lang.String: java.lang.String valueOf(boolean)>
+<java.lang.String: java.lang.String valueOf(char)>
+<java.lang.String: java.lang.String valueOf(char[])>
+<java.lang.String: java.lang.String valueOf(char[],int,int)>
+<java.lang.String: java.lang.String valueOf(double)>
+<java.lang.String: java.lang.String valueOf(float)>
+<java.lang.String: java.lang.String valueOf(int)>
+<java.lang.String: java.lang.String valueOf(long)>
+<java.lang.String: java.lang.String valueOf(java.lang.Object)>
+
+<java.lang.String: java.lang.String substring(int)>
+<java.lang.String: java.lang.String substring(int,int)>
+
+<java.lang.String: java.lang.String concat(java.lang.String)>
+
+<java.lang.String: java.lang.String format(java.util.Locale,java.lang.String,java.lang.Object[])>
+<java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>
+
+<java.lang.String: char[] toCharArray()>
+
+<java.lang.String: java.lang.String replaceAll(java.lang.String,java.lang.String)>
+<java.lang.String: java.lang.String replace(java.lang.CharSequence,java.lang.CharSequence)>
+
+<java.lang.Byte: java.lang.Byte valueOf(byte)>
+<java.lang.Byte: java.lang.Byte valueOf(java.lang.String)>
+<java.lang.Byte: java.lang.Byte valueOf(java.lang.String,int)>
+<java.lang.Byte: long parseByte(java.lang.String)>
+<java.lang.Byte: long parseByte(java.lang.String,int)>
+
+<java.lang.Integer: java.lang.String toBinaryString(int)>
+<java.lang.Integer: java.lang.String toHexString(int)>
+<java.lang.Integer: java.lang.String toOctalString(int)>
+
+<java.lang.Integer: void <init>(int)>
+<java.lang.Integer: void <init>(java.lang.String)>
+<java.lang.Integer: int parseInt(java.lang.String)>
+<java.lang.Integer: int parseInt(java.lang.String,int)>
+<java.lang.Integer: java.lang.Integer valueOf(int)>
+<java.lang.Integer: java.lang.Integer valueOf(java.lang.String)>
+<java.lang.Integer: java.lang.Integer valueOf(java.lang.String,int)>
+<java.lang.Integer: java.lang.Integer toString(int)>
+<java.lang.Integer: java.lang.Integer toString(int,int)>
+
+<java.lang.Short: java.lang.Short valueOf(short)>
+<java.lang.Short: java.lang.Short valueOf(java.lang.String)>
+<java.lang.Short: java.lang.Short valueOf(java.lang.String,int)>
+<java.lang.Short: long parseShort(java.lang.String)>
+<java.lang.Short: long parseShort(java.lang.String,int)>
+
+<java.lang.Long: void <init>(long)>
+<java.lang.Long: void <init>(java.lang.String)>
+<java.lang.Long: long parseLong(java.lang.String)>
+<java.lang.Long: long parseLong(java.lang.String,int)>
+<java.lang.Long: java.lang.Long valueOf(long)>
+<java.lang.Long: java.lang.Long valueOf(java.lang.String)>
+<java.lang.Long: java.lang.Long valueOf(java.lang.String,int)>
+<java.lang.Long: java.lang.String toString(long)>
+<java.lang.Long: java.lang.String toString(long,int)>
+
+<java.lang.Float: void <init>(float)>
+<java.lang.Float: void <init>(java.lang.String)>
+<java.lang.Float: float parseFloat(java.lang.String)>
+<java.lang.Float: java.lang.Float valueOf(float)>
+<java.lang.Float: java.lang.Float valueOf(java.lang.String)>
+<java.lang.Float: java.lang.String toString(float)>
+
+<java.lang.Double: void <init>(double)>
+<java.lang.Double: void <init>(java.lang.String)>
+<java.lang.Double: double parseDouble(java.lang.String)>
+<java.lang.Double: java.lang.Double valueOf(double)>
+<java.lang.Double: java.lang.Double valueOf(java.lang.String)>
+<java.lang.Double: java.lang.String toString(double)>
+
+<java.lang.Boolean: void <init>(boolean)>
+<java.lang.Boolean: void <init>(java.lang.String)>
+<java.lang.Boolean: java.lang.Boolean valueOf(boolean)>
+<java.lang.Boolean: java.lang.Boolean valueOf(java.lang.String)>
+<java.lang.Boolean: java.lang.String toString(boolean)>
+
+<java.lang.Character: void <init>(char)>
+<java.lang.Character: java.lang.Boolean valueOf(char)>
+<java.lang.Character: char forDigit(int,int)>
+
+<java.lang.Error: void <init>(java.lang.String)>
+
+<java.lang.Exception: void <init>(java.lang.String)>
+
+<java.lang.ref.Reference: void <init>()>
+<java.lang.ref.WeakReference: void <init>(java.lang.Object)>
+
+<java.math.BigDecimal: void <init>(int)>
+
+<java.math.BigInteger: void <init>(byte[])>
+<java.math.BigInteger: void <init>(int,byte[])>
+<java.math.BigInteger: void <init>(java.lang.String)>
+<java.math.BigInteger: void <init>(java.lang.String,int)>
+<java.math.BigInteger: java.math.BigInteger valueOf(long)>
+
+<java.math.BigInteger: java.math.BigInteger add(java.math.BigInteger)>
+<java.math.BigInteger: java.math.BigInteger and(java.math.BigInteger)>
+<java.math.BigInteger: java.math.BigInteger andNot(java.math.BigInteger)>
+<java.math.BigInteger: java.math.BigInteger divide(java.math.BigInteger)>
+<java.math.BigInteger: java.math.BigInteger[] divideAndRemainder(java.math.BigInteger)>
+<java.math.BigInteger: java.math.BigInteger gcd(java.math.BigInteger)>
+<java.math.BigInteger: java.math.BigInteger max(java.math.BigInteger)>
+<java.math.BigInteger: java.math.BigInteger min(java.math.BigInteger)>
+<java.math.BigInteger: java.math.BigInteger mod(java.math.BigInteger)>
+<java.math.BigInteger: java.math.BigInteger modInverse(java.math.BigInteger)>
+<java.math.BigInteger: java.math.BigInteger modPow(java.math.BigInteger,java.math.BigInteger)>
+<java.math.BigInteger: java.math.BigInteger multiply(java.math.BigInteger)>
+<java.math.BigInteger: java.math.BigInteger or(java.math.BigInteger)>
+<java.math.BigInteger: java.math.BigInteger xor(java.math.BigInteger)>
+
+<java.io.FileInputStream: void <init>(java.io.File)>
+<java.io.FileOutputStream: void <init>(java.lang.String)>
+
+<java.io.StringReader: void <init>(java.lang.String)>
+<java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+<java.io.BufferedReader: void <init>(java.io.Reader)>
+
+<java.io.OutputStream: void write(byte[])>
+<java.io.OutputStream: void write(byte[],int,int)>
+<java.io.OutputStream: void write(int)>
+
+<java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+
+<java.io.ObjectOutputStream: void writeObject(java.lang.Object>
+
+<java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+
+<java.io.File: void <init>(java.lang.String)>
+<java.io.File: void <init>(java.lang.String,java.lang.String)>
+
+<java.text.MessageFormat: void <init>(java.lang.String)>
+<java.text.MessageFormat: void <init>(java.lang.String,java.util.Locale)>
+<java.text.MessageFormat: java.lang.String format(java.lang.String,java.lang.Object[])>
+
+<java.net.URI: void <init>(java.lang.String)>
+<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String)>
+<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String)>
+<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+<java.net.URI: java.net.URI create(java.lang.String)>
+
+<java.net.URL: void <init>(java.lang.String)>
+<java.net.URL: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>
+<java.net.URL: void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.net.URLStreamHandler)>
+<java.net.URL: void <init>(java.lang.String,java.lang.String,java.lang.String)>
+<java.net.URL: void <init>(java.net.URL,java.lang.String)>
+<java.net.URL: void <init>(java.net.URL,java.lang.String,java.net.URLStreamHandler)>
+
+<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>
+
+<java.util.Collections: java.util.List synchronizedCollection(java.util.Collection)>
+<java.util.Collections: java.util.List synchronizedList(java.util.List)>
+<java.util.Collections: java.util.List synchronizedMap(java.util.Map)>
+<java.util.Collections: java.util.List synchronizedSet(java.util.Set)>
+<java.util.Collections: java.util.List synchronizedSortedMap(java.util.SortedMap)>
+<java.util.Collections: java.util.List synchronizedSortedSet(java.util.SortedSet)>
+
+<java.util.Collections: java.util.List unmodifiableCollection(java.util.Collection)>
+<java.util.Collections: java.util.List unmodifiableList(java.util.List)>
+<java.util.Collections: java.util.List unmodifiableMap(java.util.Map)>
+<java.util.Collections: java.util.List unmodifiableSet(java.util.Set)>
+<java.util.Collections: java.util.List unmodifiableSortedMap(java.util.SortedMap)>
+<java.util.Collections: java.util.List unmodifiableSortedSet(java.util.SortedSet)>
+
+<java.util.Collections: java.util.Set singleton(java.lang.Object)>
+<java.util.Collections: java.util.List singletonList(java.lang.Object)>
+<java.util.Collections: java.util.Map singletonMap(java.lang.Object,java.lang.Object)>
+
+<android.content.ContentValues: void put(java.lang.String,java.lang.Byte)>
+<android.content.ContentValues: void put(java.lang.String,java.lang.Integer)>
+<android.content.ContentValues: void put(java.lang.String,java.lang.Float)>
+<android.content.ContentValues: void put(java.lang.String,java.lang.Short)>
+<android.content.ContentValues: void put(java.lang.String,byte[])>
+<android.content.ContentValues: void put(java.lang.String,java.lang.String)>
+<android.content.ContentValues: void put(java.lang.String,java.lang.Double)>
+<android.content.ContentValues: void put(java.lang.String,java.lang.Long)>
+<android.content.ContentValues: void put(java.lang.String,java.lang.Boolean)>
+
+<android.content.ContentValues: void putAll(android.content.ContentValues)>
+<android.content.ContentValues: void putNull(java.lang.String)>
+
+<android.content.Intent: android.content.Intent addFlags(int)>
+<android.content.Intent: android.content.Intent setFlags(int)>
+<android.content.Intent: android.content.Intent parseIntent(android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet)>
+<android.content.Intent: android.content.Intent parseUri(java.lang.String,int)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,boolean)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,byte)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,char)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,short)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,long)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,float)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,double)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.CharSequence)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Parcelable)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Parcelable[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.io.Serializable)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,boolean[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,byte[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,short[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,char[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,int[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,long[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,float[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,double[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.CharSequence[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Bundle)>
+<android.content.Intent: android.content.Intent putExtras(android.content.Intent)>
+<android.content.Intent: android.content.Intent putExtras(android.os.Bundle)>
+
+<android.content.ContextWrapper: android.content.Context getBaseContext()>
+
+<android.content.IntentFilter: void addAction(java.lang.String)>
+
+<android.database.MatrixCursor: void addRow(java.lang.Object[])>
+
+<android.os.Bundle: void putBoolean(java.lang.String,boolean)>
+
+<org.apache.http.message.BasicNameValuePair: void <init>(java.lang.String,java.lang.String)>
+
+<org.apache.http.client.entity.UrlEncodedFormEntity: void <init>(java.util.List,java.lang.String)>
+<org.apache.http.client.entity.UrlEncodedFormEntity: void <init>(java.util.List)>
+
+<org.apache.http.entity.StringEntity: void <init>(java.lang.String)>
+<org.apache.http.entity.StringEntity: void <init>(java.lang.String,java.nio.charset.Charset)>
+<org.apache.http.entity.StringEntity: void <init>(java.lang.String,org.apache.http.entity.ContentType)>
+<org.apache.http.entity.StringEntity: void <init>(java.lang.String,java.lang.String)>
+<org.apache.http.entity.StringEntity: void <init>(java.lang.String,java.lang.String,java.lang.String)>
+
+<org.apache.http.client.methods.HttpPost: void <init>(java.lang.String)>
+<org.apache.http.client.methods.HttpPost: void <init>(java.net.URI)>
+
+<org.apache.http.HttpEntityEnclosingRequest: void setEntity(org.apache.http.HttpEntity)>
+
+<java.util.Arrays: java.util.List asList(java.lang.Object[])>
+<java.util.Arrays: java.lang.Object[] copyOf(java.lang.Object[],int)>
+<java.util.Arrays: java.lang.String toString(java.lang.Object[])>
+
+<java.util.UUID: void <init>(long,long)> 
+
+~<android.app.Activity: android.view.View findViewById(int)>
+~<android.app.Activity: void setContentView(int)>
+~<android.app.Activity: void setContentView(android.view.View)>
+<android.widget.EditText: android.text.Editable getText()>
+<android.text.Editable: java.lang.String toString()>
+
+<javax.servlet.ServletResponse: java.io.PrintWriter getWriter()>
+
+# Exclude the ServerSocket stuff
+# ~<java.net.ServerSocket: java.net.Socket accept()>
+# ~<java.net.Socket: java.io.InputStream getInputStream()>
+
+<java.nio.ByteBuffer: java.nio.ByteBuffer put(byte)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer put(byte[])>
+<java.nio.ByteBuffer: java.nio.ByteBuffer put(byte[],int,int)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer put(java.nio.ByteBuffer)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer put(int,byte)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putChar(char)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putChar(int,char)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putDouble(double)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putDouble(int,double)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putFloat(float)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putFloat(int,float)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putInt(int)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putInt(int,int)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putLong(long)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putLong(int,long)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putShort(short)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putShort(int,short)>
+
+~<android.content.ContextWrapper: android.content.Context getApplicationContext()>
+
+<android.content.Context: void sendBroadcast(android.content.Intent)>
+<android.content.Context: void sendBroadcast(android.content.Intent, java.lang.String)>
+<android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter,java.lang.String,android.os.Handler)>
+<android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>
+~<android.view.ContextThemeWrapper: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter,java.lang.String,android.os.Handler)>
+~<android.view.ContextThemeWrapper: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>
+
+<java.util.regex.Pattern: java.util.regex.Matcher matcher(java.lang.CharSequence)>
+
+
+<java.lang.ProcessBuilder: java.lang.ProcessBuilder command(java.lang.String[])>
+
+<android.os.Parcel: void writeArray(java.lang.Object[])>
+<android.os.Parcel: void writeBinderArray(android.os.IBinder[])>
+<android.os.Parcel: void writeBinderList(java.util.List)>
+<android.os.Parcel: void writeBooleanArray(boolean[])>
+<android.os.Parcel: void writeBundle(android.os.Bundle)>
+<android.os.Parcel: void writeByte(byte)>
+<android.os.Parcel: void writeByteArray(byte[],int,int)>
+<android.os.Parcel: void writeByteArray(byte[])>
+<android.os.Parcel: void writeCharArray(char[])>
+<android.os.Parcel: void writeDouble(double)>
+<android.os.Parcel: void writeDoubleArray(double[])>
+<android.os.Parcel: void writeException(java.lang.Exception)>
+<android.os.Parcel: void writeFileDescriptor(java.io.FileDescriptor)>
+<android.os.Parcel: void writeFloat(float)>
+<android.os.Parcel: void writeFloatArray(float[])>
+<android.os.Parcel: void writeInt(int)>
+<android.os.Parcel: void writeIntArray(int[])>
+<android.os.Parcel: void writeInterfaceToken(java.lang.String)>
+<android.os.Parcel: void writeList(java.util.List)>
+<android.os.Parcel: void writeLong(long)>
+<android.os.Parcel: void writeLongArray(long[])>
+<android.os.Parcel: void writeMap(java.util.Map)>
+<android.os.Parcel: void writeParcelable(android.os.Parcelable,int)>
+<android.os.Parcel: void writeParcelableArray(android.os.Parcelable[],int)>
+<android.os.Parcel: void writePersistableBundle(android.os.PersistableBundle)>
+<android.os.Parcel: void writeSerializable(java.io.Serializable)>
+<android.os.Parcel: void writeSize(android.util.Size)>
+<android.os.Parcel: void writeSizeF(android.util.SizeF)>
+<android.os.Parcel: void writeSparseArray(android.util.SparseArray)>
+<android.os.Parcel: void writeSparseBooleanArray(android.util.SparseBooleanArray)>
+<android.os.Parcel: void writeString(java.lang.String)>
+<android.os.Parcel: void writeStringArray(java.lang.String[])>
+<android.os.Parcel: void writeStringList(java.util.List)>
+<android.os.Parcel: void writeStrongBinder(android.os.IBinder)>
+<android.os.Parcel: void writeStrongInterface(android.os.IInterface)>
+<android.os.Parcel: void writeTypedArray(android.os.Parcelable[],int)>
+<android.os.Parcel: void writeTypedList(java.util.List)>
+<android.os.Parcel: void writeValue(java.lang.Object)>
+<android.os.Parcel: void unmarshall(byte[],int,int)>
+
+<android.graphics.Point: void <init>(int,int)>
+<android.graphics.Point: void <init>(android.graphics.Point)>
+<android.graphics.PointF: void <init>(float,float)>
+<android.graphics.PointF: void <init>(android.graphics.Point)>
+
+<android.telephony.SmsMessage: android.telephony.SmsMessage createFromPdu(byte[])>
+<android.telephony.gsm.SmsMessage: android.telephony.gsm.SmsMessage createFromPdu(byte[])>
+
+~<android.content.SharedPreferences: android.content.SharedPreferences$Editor edit()>
+
+<android.app.DownloadManager$Request: void <init>(android.net.Uri)>
+
+<java.lang.Throwable: void <init>(java.lang.String)>
+<java.lang.Throwable: void <init>(java.lang.String,java.lang.Throwable)>
+<java.lang.Throwable: void <init>(java.lang.String,java.lang.Throwable,boolean,boolean)>
+<java.lang.Throwable: void <init>(java.lang.Throwable)>
+
+<org.joda.time.convert.CalendarConverter: org.joda.time.Chronology getChronology(java.lang.Object,org.joda.time.Chronology)>
+<org.joda.time.convert.CalendarConverter: org.joda.time.Chronology getChronology(java.lang.Object,org.joda.time.DateTimeZone)>
+
+<org.joda.time.chrono.BuddhistChronology: org.joda.time.chrono.BuddhistChronology getInstance()>
+<org.joda.time.chrono.BuddhistChronology: org.joda.time.chrono.BuddhistChronology getInstance(org.joda.time.DateTimeZone)>
+<org.joda.time.chrono.BuddhistChronology: org.joda.time.chrono.BuddhistChronology getInstanceUTC()>
+
+<org.joda.time.chrono.CopticChronology: org.joda.time.chrono.CopticChronology getInstance()>
+<org.joda.time.chrono.CopticChronology: org.joda.time.chrono.CopticChronology getInstance(org.joda.time.DateTimeZone)>
+<org.joda.time.chrono.CopticChronology: org.joda.time.chrono.CopticChronology getInstance(org.joda.time.DateTimeZone,int)>
+<org.joda.time.chrono.CopticChronology: org.joda.time.chrono.CopticChronology getInstanceUTC()>
+
+<org.joda.time.chrono.EthiopicChronology: org.joda.time.chrono.EthiopicChronology getInstance()>
+<org.joda.time.chrono.EthiopicChronology: org.joda.time.chrono.EthiopicChronology getInstance(org.joda.time.DateTimeZone)>
+<org.joda.time.chrono.EthiopicChronology: org.joda.time.chrono.EthiopicChronology getInstance(org.joda.time.DateTimeZone,int)>
+<org.joda.time.chrono.EthiopicChronology: org.joda.time.chrono.EthiopicChronology getInstanceUTC()>
+
+<org.joda.time.chrono.GregorianChronology: org.joda.time.chrono.GregorianChronology getInstance()>
+<org.joda.time.chrono.GregorianChronology: org.joda.time.chrono.GregorianChronology getInstance(org.joda.time.DateTimeZone)>
+<org.joda.time.chrono.GregorianChronology: org.joda.time.chrono.GregorianChronology getInstance(org.joda.time.DateTimeZone,int)>
+<org.joda.time.chrono.GregorianChronology: org.joda.time.chrono.GregorianChronology getInstanceUTC()>
+
+<org.joda.time.chrono.IslamicChronology: org.joda.time.chrono.IslamicChronology getInstance()>
+<org.joda.time.chrono.IslamicChronology: org.joda.time.chrono.IslamicChronology getInstance(org.joda.time.DateTimeZone)>
+<org.joda.time.chrono.IslamicChronology: org.joda.time.chrono.IslamicChronology getInstance(org.joda.time.DateTimeZone,org.joda.time.chrono.IslamicChronology$LeapYearPatternType)>
+<org.joda.time.chrono.IslamicChronology: org.joda.time.chrono.IslamicChronology getInstanceUTC()>
+
+<org.joda.time.chrono.ISOChronology: org.joda.time.chrono.BuddhistChronology getInstance()>
+<org.joda.time.chrono.ISOChronology: org.joda.time.chrono.BuddhistChronology getInstance(org.joda.time.DateTimeZone)>
+<org.joda.time.chrono.ISOChronology: org.joda.time.chrono.BuddhistChronology getInstanceUTC()>
+
+<org.joda.time.chrono.JulianChronology: org.joda.time.chrono.JulianChronology getInstance()>
+<org.joda.time.chrono.JulianChronology: org.joda.time.chrono.JulianChronology getInstance(org.joda.time.DateTimeZone)>
+<org.joda.time.chrono.JulianChronology: org.joda.time.chrono.JulianChronology getInstance(org.joda.time.DateTimeZone,int)>
+<org.joda.time.chrono.JulianChronology: org.joda.time.chrono.JulianChronology getInstanceUTC()>
+
+<org.joda.time.chrono.LenientChronology: org.joda.time.chrono.LenientChronology getInstance(org.joda.time.Chronology)>
+<org.joda.time.chrono.LimitChronology: org.joda.time.chrono.LimitChronology getInstance(org.joda.time.Chronology,org.joda.time.ReadableDateTime,org.joda.time.ReadableDateTime)>
+<org.joda.time.chrono.StrictChronology: org.joda.time.chrono.StrictChronology getInstance(org.joda.time.Chronology)>
+<org.joda.time.chrono.ZonedChronology: org.joda.time.chrono.ZonedChronology getInstance(org.joda.time.Chronology,org.joda.time.DateTimeZone)>
+
+<java.util.TimeZone: java.util.TimeZone getTimeZone(java.lang.String)>
+
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(byte[],java.lang.Class)>
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(byte[],int,int,java.lang.Class)>
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(byte[],int,int,com.fasterxml.jackson.databind.JavaType)>
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(byte[],int,int,com.fasterxml.jackson.core.type.TypeReference)>
+
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(byte[],com.fasterxml.jackson.databind.JavaType)>
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(byte[],com.fasterxml.jackson.core.type.TypeReference)>
+
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(java.io.File,java.lang.Class)>
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(java.io.File,com.fasterxml.jackson.databind.JavaType)>
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(java.io.File,com.fasterxml.jackson.core.type.TypeReference)>
+
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(java.io.InputStream,java.lang.Class)>
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(java.io.InputStream,com.fasterxml.jackson.databind.JavaType)>
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(java.io.InputStream,com.fasterxml.jackson.core.type.TypeReference)>
+
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(com.fasterxml.jackson.core.JsonParser,java.lang.Class)>
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.JavaType)>
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.core.type.ResolvedType)>
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.core.type.TypeReference)>
+
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(java.io.reader,java.lang.Class)>
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(java.io.reader,com.fasterxml.jackson.databind.JavaType)>
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(java.io.reader,com.fasterxml.jackson.core.type.TypeReference)>
+
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(java.lang.String,java.lang.Class)>
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(java.lang.String,com.fasterxml.jackson.databind.JavaType)>
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(java.lang.String,com.fasterxml.jackson.core.type.TypeReference)>
+
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(java.net.URL,java.lang.Class)>
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(java.net.URL,com.fasterxml.jackson.databind.JavaType)>
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(java.net.URL,com.fasterxml.jackson.core.type.TypeReference)>
+
+<com.fasterxml.jackson.databind.ObjectMapper: com.fasterxml.jackson.databind.MappingIterator readValues(com.fasterxml.jackson.core.JsonParser,java.lang.Class)>
+<com.fasterxml.jackson.databind.ObjectMapper: com.fasterxml.jackson.databind.MappingIterator readValues(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.JavaType)>
+<com.fasterxml.jackson.databind.ObjectMapper: com.fasterxml.jackson.databind.MappingIterator readValues(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.core.type.ResolvedType)>
+<com.fasterxml.jackson.databind.ObjectMapper: com.fasterxml.jackson.databind.MappingIterator readValues(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.core.type.TypeReference)>
+
+<com.fasterxml.jackson.databind.ObjectMapper: byte[] writeValueAsBytes(java.lang.Object)>
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.String writeValueAsString(java.lang.Object)>
+
+<org.apache.http.util.EntityUtils: java.lang.String toString(org.apache.http.HttpEntity)>
+<org.apache.http.util.EntityUtils: java.lang.String toString(org.apache.http.HttpEntity,java.nio.Charset)>
+<org.apache.http.util.EntityUtils: java.lang.String toString(org.apache.http.HttpEntity,java.lang.String)>
+
+#add from cordova
+<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>
+<org.json.JSONArray: org.json.JSONObject put(java.lang.Object)>
+<org.json.JSONArray: org.json.JSONArray put(java.lang.Object)>
+
+#automated
+<org.apache.cordova.Whitelist: void addWhiteListEntry(java.lang.String,boolean)>(java.lang.String, boolean)
+<org.apache.cordova.Whitelist: boolean isUrlWhiteListed(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CordovaArgs: void <init>(org.json.JSONArray)>(org.json.JSONArray)
+<org.apache.cordova.CordovaArgs: java.lang.Object get(int)>(int)
+<org.apache.cordova.CordovaArgs: byte[] getArrayBuffer(int)>(int)
+<org.apache.cordova.CordovaArgs: boolean getBoolean(int)>(int)
+<org.apache.cordova.CordovaArgs: double getDouble(int)>(int)
+<org.apache.cordova.CordovaArgs: int getInt(int)>(int)
+<org.apache.cordova.CordovaArgs: org.json.JSONArray getJSONArray(int)>(int)
+<org.apache.cordova.CordovaArgs: org.json.JSONObject getJSONObject(int)>(int)
+<org.apache.cordova.CordovaArgs: long getLong(int)>(int)
+<org.apache.cordova.CordovaArgs: java.lang.String getString(int)>(int)
+<org.apache.cordova.CordovaArgs: boolean isNull(int)>(int)
+<org.apache.cordova.CordovaArgs: java.lang.Object opt(int)>(int)
+<org.apache.cordova.CordovaArgs: boolean optBoolean(int)>(int)
+<org.apache.cordova.CordovaArgs: double optDouble(int)>(int)
+<org.apache.cordova.CordovaArgs: int optInt(int)>(int)
+<org.apache.cordova.CordovaArgs: org.json.JSONArray optJSONArray(int)>(int)
+<org.apache.cordova.CordovaArgs: org.json.JSONObject optJSONObject(int)>(int)
+<org.apache.cordova.CordovaArgs: long optLong(int)>(int)
+<org.apache.cordova.CordovaArgs: java.lang.String optString(int)>(int)
+<org.apache.cordova.ExposedJsApi: java.lang.String exec(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+<org.apache.cordova.ExposedJsApi: java.lang.String retrieveJsMessages(int,boolean)>(int, boolean)
+<org.apache.cordova.ExposedJsApi: void setNativeToJsBridgeMode(int,int)>(int, int)
+<org.apache.cordova.CordovaWebViewEngine: void evaluateJavascript(java.lang.String,android.webkit.ValueCallback)>(java.lang.String, android.webkit.ValueCallback)
+<org.apache.cordova.CordovaWebViewEngine: void loadUrl(java.lang.String,boolean)>(java.lang.String, boolean)
+<org.apache.cordova.CordovaWebViewEngine: void setPaused(boolean)>(boolean)
+<org.apache.cordova.CallbackContext: void <init>(java.lang.String,org.apache.cordova.CordovaWebView)>(java.lang.String, org.apache.cordova.CordovaWebView)
+<org.apache.cordova.CallbackContext: void error(int)>(int)
+<org.apache.cordova.CallbackContext: void error(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CallbackContext: void error(org.json.JSONObject)>(org.json.JSONObject)
+<org.apache.cordova.CallbackContext: void sendPluginResult(org.apache.cordova.PluginResult)>(org.apache.cordova.PluginResult)
+<org.apache.cordova.CallbackContext: void success(int)>(int)
+<org.apache.cordova.CallbackContext: void success(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CallbackContext: void success(org.json.JSONArray)>(org.json.JSONArray)
+<org.apache.cordova.CallbackContext: void success(org.json.JSONObject)>(org.json.JSONObject)
+<org.apache.cordova.CallbackContext: void success(byte[])>(byte())
+<org.apache.cordova.engine.SystemWebChromeClient: void <init>(org.apache.cordova.engine.SystemWebViewEngine)>(org.apache.cordova.engine.SystemWebViewEngine)
+<org.apache.cordova.engine.SystemWebChromeClient: void onConsoleMessage(java.lang.String,int,java.lang.String)>(java.lang.String, int, java.lang.String)
+<org.apache.cordova.engine.SystemWebChromeClient: boolean onConsoleMessage(android.webkit.ConsoleMessage)>(android.webkit.ConsoleMessage)
+<org.apache.cordova.engine.SystemWebChromeClient: boolean onJsAlert(android.webkit.WebView,java.lang.String,java.lang.String,android.webkit.JsResult)>(android.webkit.WebView, java.lang.String, java.lang.String, android.webkit.JsResult)
+<org.apache.cordova.engine.SystemWebChromeClient: boolean onJsConfirm(android.webkit.WebView,java.lang.String,java.lang.String,android.webkit.JsResult)>(android.webkit.WebView, java.lang.String, java.lang.String, android.webkit.JsResult)
+<org.apache.cordova.engine.SystemWebChromeClient: boolean onJsPrompt(android.webkit.WebView,java.lang.String,java.lang.String,java.lang.String,android.webkit.JsPromptResult)>(android.webkit.WebView, java.lang.String, java.lang.String, java.lang.String, android.webkit.JsPromptResult)
+<org.apache.cordova.engine.SystemWebChromeClient: void onPermissionRequest(android.webkit.PermissionRequest)>(android.webkit.PermissionRequest)
+<org.apache.cordova.engine.SystemWebChromeClient: void openFileChooser(android.webkit.ValueCallback)>(android.webkit.ValueCallback)
+<org.apache.cordova.engine.SystemWebChromeClient: void openFileChooser(android.webkit.ValueCallback,java.lang.String)>(android.webkit.ValueCallback, java.lang.String)
+<org.apache.cordova.engine.SystemWebChromeClient: void openFileChooser(android.webkit.ValueCallback,java.lang.String,java.lang.String)>(android.webkit.ValueCallback, java.lang.String, java.lang.String)
+<org.apache.cordova.engine.SystemExposedJsApi: void <init>(org.apache.cordova.CordovaBridge)>(org.apache.cordova.CordovaBridge)
+<org.apache.cordova.engine.SystemExposedJsApi: java.lang.String exec(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+<org.apache.cordova.engine.SystemExposedJsApi: java.lang.String retrieveJsMessages(int,boolean)>(int, boolean)
+<org.apache.cordova.engine.SystemExposedJsApi: void setNativeToJsBridgeMode(int,int)>(int, int)
+<org.apache.cordova.CordovaBridge: void <init>(org.apache.cordova.PluginManager,org.apache.cordova.NativeToJsMessageQueue)>(org.apache.cordova.PluginManager, org.apache.cordova.NativeToJsMessageQueue)
+<org.apache.cordova.CordovaBridge: boolean verifySecret(java.lang.String,int)>(java.lang.String, int)
+<org.apache.cordova.CordovaBridge: java.lang.String jsExec(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+<org.apache.cordova.CordovaBridge: java.lang.String jsRetrieveJsMessages(int,boolean)>(int, boolean)
+<org.apache.cordova.CordovaBridge: void jsSetNativeToJsBridgeMode(int,int)>(int, int)
+<org.apache.cordova.CordovaBridge: java.lang.String promptOnJsPrompt(java.lang.String,java.lang.String,java.lang.String)>(java.lang.String, java.lang.String, java.lang.String)
+<org.apache.cordova.LOG: void d(java.lang.String,java.lang.String)>(java.lang.String, java.lang.String)
+<org.apache.cordova.LOG: void d(java.lang.String,java.lang.String,java.lang.Throwable)>(java.lang.String, java.lang.String, java.lang.Throwable)
+<org.apache.cordova.LOG: void d(java.lang.String,java.lang.String,java.lang.Object[])>(java.lang.String, java.lang.String, java.lang.Object())
+<org.apache.cordova.LOG: void e(java.lang.String,java.lang.String)>(java.lang.String, java.lang.String)
+<org.apache.cordova.LOG: void e(java.lang.String,java.lang.String,java.lang.Throwable)>(java.lang.String, java.lang.String, java.lang.Throwable)
+<org.apache.cordova.LOG: void e(java.lang.String,java.lang.String,java.lang.Object[])>(java.lang.String, java.lang.String, java.lang.Object())
+<org.apache.cordova.LOG: void i(java.lang.String,java.lang.String)>(java.lang.String, java.lang.String)
+<org.apache.cordova.LOG: void i(java.lang.String,java.lang.String,java.lang.Throwable)>(java.lang.String, java.lang.String, java.lang.Throwable)
+<org.apache.cordova.LOG: void i(java.lang.String,java.lang.String,java.lang.Object[])>(java.lang.String, java.lang.String, java.lang.Object())
+<org.apache.cordova.LOG: boolean isLoggable(int)>(int)
+<org.apache.cordova.LOG: void setLogLevel(int)>(int)
+<org.apache.cordova.LOG: void setLogLevel(java.lang.String)>(java.lang.String)
+<org.apache.cordova.LOG: void v(java.lang.String,java.lang.String)>(java.lang.String, java.lang.String)
+<org.apache.cordova.LOG: void v(java.lang.String,java.lang.String,java.lang.Throwable)>(java.lang.String, java.lang.String, java.lang.Throwable)
+<org.apache.cordova.LOG: void v(java.lang.String,java.lang.String,java.lang.Object[])>(java.lang.String, java.lang.String, java.lang.Object())
+<org.apache.cordova.LOG: void w(java.lang.String,java.lang.String)>(java.lang.String, java.lang.String)
+<org.apache.cordova.LOG: void w(java.lang.String,java.lang.String,java.lang.Throwable)>(java.lang.String, java.lang.String, java.lang.Throwable)
+<org.apache.cordova.LOG: void w(java.lang.String,java.lang.String,java.lang.Object[])>(java.lang.String, java.lang.String, java.lang.Object())
+<org.apache.cordova.LOG: void w(java.lang.String,java.lang.Throwable)>(java.lang.String, java.lang.Throwable)
+<com.plugin.IMEI.IMEIPlugin: boolean execute(java.lang.String,org.json.JSONArray,org.apache.cordova.CallbackContext)>(java.lang.String, org.json.JSONArray, org.apache.cordova.CallbackContext)
+<org.apache.cordova.engine.SystemWebViewEngine: void <init>(android.content.Context,org.apache.cordova.CordovaPreferences)>(android.content.Context, org.apache.cordova.CordovaPreferences)
+<org.apache.cordova.engine.SystemWebViewEngine: void <init>(org.apache.cordova.engine.SystemWebView)>(org.apache.cordova.engine.SystemWebView)
+<org.apache.cordova.engine.SystemWebViewEngine: void <init>(org.apache.cordova.engine.SystemWebView,org.apache.cordova.CordovaPreferences)>(org.apache.cordova.engine.SystemWebView, org.apache.cordova.CordovaPreferences)
+<org.apache.cordova.engine.SystemWebViewEngine: void exposeJsInterface(android.webkit.WebView,org.apache.cordova.CordovaBridge)>(android.webkit.WebView, org.apache.cordova.CordovaBridge)
+<org.apache.cordova.engine.SystemWebViewEngine: void evaluateJavascript(java.lang.String,android.webkit.ValueCallback)>(java.lang.String, android.webkit.ValueCallback)
+<org.apache.cordova.engine.SystemWebViewEngine: void loadUrl(java.lang.String,boolean)>(java.lang.String, boolean)
+<org.apache.cordova.engine.SystemWebViewEngine: void setPaused(boolean)>(boolean)
+<org.apache.cordova.engine.SystemWebViewClient: void <init>(org.apache.cordova.engine.SystemWebViewEngine)>(org.apache.cordova.engine.SystemWebViewEngine)
+<org.apache.cordova.engine.SystemWebViewClient: boolean needsKitKatContentUrlFix(android.net.Uri)>(android.net.Uri)
+<org.apache.cordova.engine.SystemWebViewClient: boolean needsSpecialsInAssetUrlFix(android.net.Uri)>(android.net.Uri)
+<org.apache.cordova.engine.SystemWebViewClient: org.apache.cordova.AuthenticationToken getAuthenticationToken(java.lang.String,java.lang.String)>(java.lang.String, java.lang.String)
+<org.apache.cordova.engine.SystemWebViewClient: void onPageFinished(android.webkit.WebView,java.lang.String)>(android.webkit.WebView, java.lang.String)
+<org.apache.cordova.engine.SystemWebViewClient: void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap)>(android.webkit.WebView, java.lang.String, android.graphics.Bitmap)
+<org.apache.cordova.engine.SystemWebViewClient: void onReceivedClientCertRequest(android.webkit.WebView,android.webkit.ClientCertRequest)>(android.webkit.WebView, android.webkit.ClientCertRequest)
+<org.apache.cordova.engine.SystemWebViewClient: void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String)>(android.webkit.WebView, int, java.lang.String, java.lang.String)
+<org.apache.cordova.engine.SystemWebViewClient: void onReceivedHttpAuthRequest(android.webkit.WebView,android.webkit.HttpAuthHandler,java.lang.String,java.lang.String)>(android.webkit.WebView, android.webkit.HttpAuthHandler, java.lang.String, java.lang.String)
+<org.apache.cordova.engine.SystemWebViewClient: void onReceivedSslError(android.webkit.WebView,android.webkit.SslErrorHandler,android.net.http.SslError)>(android.webkit.WebView, android.webkit.SslErrorHandler, android.net.http.SslError)
+<org.apache.cordova.engine.SystemWebViewClient: org.apache.cordova.AuthenticationToken removeAuthenticationToken(java.lang.String,java.lang.String)>(java.lang.String, java.lang.String)
+<org.apache.cordova.engine.SystemWebViewClient: void setAuthenticationToken(org.apache.cordova.AuthenticationToken,java.lang.String,java.lang.String)>(org.apache.cordova.AuthenticationToken, java.lang.String, java.lang.String)
+<org.apache.cordova.engine.SystemWebViewClient: android.webkit.WebResourceResponse shouldInterceptRequest(android.webkit.WebView,java.lang.String)>(android.webkit.WebView, java.lang.String)
+<org.apache.cordova.engine.SystemWebViewClient: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>(android.webkit.WebView, java.lang.String)
+<org.apache.cordova.engine.SystemCookieManager: void <init>(android.webkit.WebView)>(android.webkit.WebView)
+<org.apache.cordova.engine.SystemCookieManager: java.lang.String getCookie(java.lang.String)>(java.lang.String)
+<org.apache.cordova.engine.SystemCookieManager: void setCookie(java.lang.String,java.lang.String)>(java.lang.String, java.lang.String)
+<org.apache.cordova.engine.SystemCookieManager: void setCookiesEnabled(boolean)>(boolean)
+<io.cordova.hellocordova.MainActivity: void onCreate(android.os.Bundle)>(android.os.Bundle)
+<org.apache.cordova.device.Device: boolean execute(java.lang.String,org.json.JSONArray,org.apache.cordova.CallbackContext)>(java.lang.String, org.json.JSONArray, org.apache.cordova.CallbackContext)
+<org.apache.cordova.device.Device: void initialize(org.apache.cordova.CordovaInterface,org.apache.cordova.CordovaWebView)>(org.apache.cordova.CordovaInterface, org.apache.cordova.CordovaWebView)
+<org.apache.cordova.CordovaPlugin: boolean execute(java.lang.String,java.lang.String,org.apache.cordova.CallbackContext)>(java.lang.String, java.lang.String, org.apache.cordova.CallbackContext)
+<org.apache.cordova.CordovaPlugin: boolean execute(java.lang.String,org.apache.cordova.CordovaArgs,org.apache.cordova.CallbackContext)>(java.lang.String, org.apache.cordova.CordovaArgs, org.apache.cordova.CallbackContext)
+<org.apache.cordova.CordovaPlugin: boolean execute(java.lang.String,org.json.JSONArray,org.apache.cordova.CallbackContext)>(java.lang.String, org.json.JSONArray, org.apache.cordova.CallbackContext)
+<org.apache.cordova.CordovaPlugin: android.net.Uri fromPluginUri(android.net.Uri)>(android.net.Uri)
+<org.apache.cordova.CordovaPlugin: void initialize(org.apache.cordova.CordovaInterface,org.apache.cordova.CordovaWebView)>(org.apache.cordova.CordovaInterface, org.apache.cordova.CordovaWebView)
+<org.apache.cordova.CordovaPlugin: void onActivityResult(int,int,android.content.Intent)>(int, int, android.content.Intent)
+<org.apache.cordova.CordovaPlugin: void onConfigurationChanged(android.content.res.Configuration)>(android.content.res.Configuration)
+<org.apache.cordova.CordovaPlugin: java.lang.Object onMessage(java.lang.String,java.lang.Object)>(java.lang.String, java.lang.Object)
+<org.apache.cordova.CordovaPlugin: void onNewIntent(android.content.Intent)>(android.content.Intent)
+<org.apache.cordova.CordovaPlugin: boolean onOverrideUrlLoading(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CordovaPlugin: void onPause(boolean)>(boolean)
+<org.apache.cordova.CordovaPlugin: boolean onReceivedClientCertRequest(org.apache.cordova.CordovaWebView,org.apache.cordova.ICordovaClientCertRequest)>(org.apache.cordova.CordovaWebView, org.apache.cordova.ICordovaClientCertRequest)
+<org.apache.cordova.CordovaPlugin: boolean onReceivedHttpAuthRequest(org.apache.cordova.CordovaWebView,org.apache.cordova.ICordovaHttpAuthHandler,java.lang.String,java.lang.String)>(org.apache.cordova.CordovaWebView, org.apache.cordova.ICordovaHttpAuthHandler, java.lang.String, java.lang.String)
+<org.apache.cordova.CordovaPlugin: void onRequestPermissionResult(int,java.lang.String[],int[])>(int, java.lang.String(), int())
+<org.apache.cordova.CordovaPlugin: void onRestoreStateForActivityResult(android.os.Bundle,org.apache.cordova.CallbackContext)>(android.os.Bundle, org.apache.cordova.CallbackContext)
+<org.apache.cordova.CordovaPlugin: void onResume(boolean)>(boolean)
+<org.apache.cordova.CordovaPlugin: void privateInitialize(java.lang.String,org.apache.cordova.CordovaInterface,org.apache.cordova.CordovaWebView,org.apache.cordova.CordovaPreferences)>(java.lang.String, org.apache.cordova.CordovaInterface, org.apache.cordova.CordovaWebView, org.apache.cordova.CordovaPreferences)
+<org.apache.cordova.CordovaPlugin: android.net.Uri remapUri(android.net.Uri)>(android.net.Uri)
+<org.apache.cordova.CordovaPlugin: void requestPermissions(int)>(int)
+<org.apache.cordova.CordovaPlugin: java.lang.Boolean shouldAllowBridgeAccess(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CordovaPlugin: java.lang.Boolean shouldAllowNavigation(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CordovaPlugin: java.lang.Boolean shouldAllowRequest(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CordovaPlugin: java.lang.Boolean shouldOpenExternalUrl(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CordovaPlugin: android.net.Uri toPluginUri(android.net.Uri)>(android.net.Uri)
+<org.apache.cordova.CordovaActivity: void displayError(java.lang.String,java.lang.String,java.lang.String,boolean)>(java.lang.String, java.lang.String, java.lang.String, boolean)
+<org.apache.cordova.CordovaActivity: void loadUrl(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CordovaActivity: void onActivityResult(int,int,android.content.Intent)>(int, int, android.content.Intent)
+<org.apache.cordova.CordovaActivity: void onConfigurationChanged(android.content.res.Configuration)>(android.content.res.Configuration)
+<org.apache.cordova.CordovaActivity: void onCreate(android.os.Bundle)>(android.os.Bundle)
+<org.apache.cordova.CordovaActivity: boolean onCreateOptionsMenu(android.view.Menu)>(android.view.Menu)
+<org.apache.cordova.CordovaActivity: java.lang.Object onMessage(java.lang.String,java.lang.Object)>(java.lang.String, java.lang.Object)
+<org.apache.cordova.CordovaActivity: void onNewIntent(android.content.Intent)>(android.content.Intent)
+<org.apache.cordova.CordovaActivity: boolean onOptionsItemSelected(android.view.MenuItem)>(android.view.MenuItem)
+<org.apache.cordova.CordovaActivity: boolean onPrepareOptionsMenu(android.view.Menu)>(android.view.Menu)
+<org.apache.cordova.CordovaActivity: void onReceivedError(int,java.lang.String,java.lang.String)>(int, java.lang.String, java.lang.String)
+<org.apache.cordova.CordovaActivity: void onRequestPermissionsResult(int,java.lang.String[],int[])>(int, java.lang.String(), int())
+<org.apache.cordova.CordovaActivity: void onSaveInstanceState(android.os.Bundle)>(android.os.Bundle)
+<org.apache.cordova.CordovaActivity: void onWindowFocusChanged(boolean)>(boolean)
+<org.apache.cordova.CordovaActivity: void startActivityForResult(android.content.Intent,int,android.os.Bundle)>(android.content.Intent, int, android.os.Bundle)
+<org.apache.cordova.engine.SystemWebView: void <init>(android.content.Context)>(android.content.Context)
+<org.apache.cordova.engine.SystemWebView: void <init>(android.content.Context,android.util.AttributeSet)>(android.content.Context, android.util.AttributeSet)
+<org.apache.cordova.engine.SystemWebView: boolean dispatchKeyEvent(android.view.KeyEvent)>(android.view.KeyEvent)
+<org.apache.cordova.engine.SystemWebView: void init(org.apache.cordova.engine.SystemWebViewEngine,org.apache.cordova.CordovaInterface)>(org.apache.cordova.engine.SystemWebViewEngine, org.apache.cordova.CordovaInterface)
+<org.apache.cordova.engine.SystemWebView: void setWebChromeClient(android.webkit.WebChromeClient)>(android.webkit.WebChromeClient)
+<org.apache.cordova.engine.SystemWebView: void setWebViewClient(android.webkit.WebViewClient)>(android.webkit.WebViewClient)
+<com.cordova.plugins.sms.Sms: void invokeSMSIntent(java.lang.String,java.lang.String)>(java.lang.String, java.lang.String)
+<com.cordova.plugins.sms.Sms: void send(org.apache.cordova.CallbackContext,java.lang.String,java.lang.String)>(org.apache.cordova.CallbackContext, java.lang.String, java.lang.String)
+<com.cordova.plugins.sms.Sms: boolean execute(java.lang.String,org.json.JSONArray,org.apache.cordova.CallbackContext)>(java.lang.String, org.json.JSONArray, org.apache.cordova.CallbackContext)
+<com.cordova.plugins.sms.Sms: void onRequestPermissionResult(int,java.lang.String[],int[])>(int, java.lang.String(), int())
+<com.joandilee.imeiplugin: void getImei(java.lang.String,org.apache.cordova.CallbackContext)>(java.lang.String, org.apache.cordova.CallbackContext)
+<com.joandilee.imeiplugin: void DeviceImeiNumber(org.apache.cordova.CallbackContext)>(org.apache.cordova.CallbackContext)
+<com.joandilee.imeiplugin: boolean execute(java.lang.String,org.json.JSONArray,org.apache.cordova.CallbackContext)>(java.lang.String, org.json.JSONArray, org.apache.cordova.CallbackContext)
+<org.apache.cordova.CordovaWebView: void clearCache(boolean)>(boolean)
+<org.apache.cordova.CordovaWebView: void handlePause(boolean)>(boolean)
+<org.apache.cordova.CordovaWebView: void handleResume(boolean)>(boolean)
+<org.apache.cordova.CordovaWebView: void init(org.apache.cordova.CordovaInterface,java.util.List,org.apache.cordova.CordovaPreferences)>(org.apache.cordova.CordovaInterface, java.util.List, org.apache.cordova.CordovaPreferences)
+<org.apache.cordova.CordovaWebView: boolean isButtonPlumbedToJs(int)>(int)
+<org.apache.cordova.CordovaWebView: void loadUrl(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CordovaWebView: void loadUrlIntoView(java.lang.String,boolean)>(java.lang.String, boolean)
+<org.apache.cordova.CordovaWebView: void onNewIntent(android.content.Intent)>(android.content.Intent)
+<org.apache.cordova.CordovaWebView: java.lang.Object postMessage(java.lang.String,java.lang.Object)>(java.lang.String, java.lang.Object)
+<org.apache.cordova.CordovaWebView: void sendJavascript(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CordovaWebView: void sendPluginResult(org.apache.cordova.PluginResult,java.lang.String)>(org.apache.cordova.PluginResult, java.lang.String)
+<org.apache.cordova.CordovaWebView: void setButtonPlumbedToJs(int,boolean)>(int, boolean)
+<org.apache.cordova.CordovaWebView: void showWebPage(java.lang.String,boolean,boolean,java.util.Map)>(java.lang.String, boolean, boolean, java.util.Map)
+<org.apache.cordova.ICordovaCookieManager: java.lang.String getCookie(java.lang.String)>(java.lang.String)
+<org.apache.cordova.ICordovaCookieManager: void setCookie(java.lang.String,java.lang.String)>(java.lang.String, java.lang.String)
+<org.apache.cordova.ICordovaCookieManager: void setCookiesEnabled(boolean)>(boolean)
+<org.apache.cordova.whitelist.WhitelistPlugin: void <init>(android.content.Context)>(android.content.Context)
+<org.apache.cordova.whitelist.WhitelistPlugin: void <init>(org.apache.cordova.Whitelist,org.apache.cordova.Whitelist,org.apache.cordova.Whitelist)>(org.apache.cordova.Whitelist, org.apache.cordova.Whitelist, org.apache.cordova.Whitelist)
+<org.apache.cordova.whitelist.WhitelistPlugin: void <init>(org.xmlpull.v1.XmlPullParser)>(org.xmlpull.v1.XmlPullParser)
+<org.apache.cordova.whitelist.WhitelistPlugin: void setAllowedIntents(org.apache.cordova.Whitelist)>(org.apache.cordova.Whitelist)
+<org.apache.cordova.whitelist.WhitelistPlugin: void setAllowedNavigations(org.apache.cordova.Whitelist)>(org.apache.cordova.Whitelist)
+<org.apache.cordova.whitelist.WhitelistPlugin: void setAllowedRequests(org.apache.cordova.Whitelist)>(org.apache.cordova.Whitelist)
+<org.apache.cordova.whitelist.WhitelistPlugin: java.lang.Boolean shouldAllowNavigation(java.lang.String)>(java.lang.String)
+<org.apache.cordova.whitelist.WhitelistPlugin: java.lang.Boolean shouldAllowRequest(java.lang.String)>(java.lang.String)
+<org.apache.cordova.whitelist.WhitelistPlugin: java.lang.Boolean shouldOpenExternalUrl(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CordovaInterface: boolean hasPermission(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CordovaInterface: java.lang.Object onMessage(java.lang.String,java.lang.Object)>(java.lang.String, java.lang.Object)
+<org.apache.cordova.CordovaInterface: void requestPermission(org.apache.cordova.CordovaPlugin,int,java.lang.String)>(org.apache.cordova.CordovaPlugin, int, java.lang.String)
+<org.apache.cordova.CordovaInterface: void requestPermissions(org.apache.cordova.CordovaPlugin,int,java.lang.String[])>(org.apache.cordova.CordovaPlugin, int, java.lang.String())
+<org.apache.cordova.CordovaInterface: void setActivityResultCallback(org.apache.cordova.CordovaPlugin)>(org.apache.cordova.CordovaPlugin)
+<org.apache.cordova.CordovaInterface: void startActivityForResult(org.apache.cordova.CordovaPlugin,android.content.Intent,int)>(org.apache.cordova.CordovaPlugin, android.content.Intent, int)
+<org.apache.cordova.CordovaWebViewImpl: void <init>(org.apache.cordova.CordovaWebViewEngine)>(org.apache.cordova.CordovaWebViewEngine)
+<org.apache.cordova.CordovaWebViewImpl: org.apache.cordova.CordovaWebViewEngine createEngine(android.content.Context,org.apache.cordova.CordovaPreferences)>(android.content.Context, org.apache.cordova.CordovaPreferences)
+<org.apache.cordova.CordovaWebViewImpl: void sendJavascriptEvent(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CordovaWebViewImpl: void clearCache(boolean)>(boolean)
+<org.apache.cordova.CordovaWebViewImpl: void handlePause(boolean)>(boolean)
+<org.apache.cordova.CordovaWebViewImpl: void handleResume(boolean)>(boolean)
+<org.apache.cordova.CordovaWebViewImpl: void init(org.apache.cordova.CordovaInterface)>(org.apache.cordova.CordovaInterface)
+<org.apache.cordova.CordovaWebViewImpl: void init(org.apache.cordova.CordovaInterface,java.util.List,org.apache.cordova.CordovaPreferences)>(org.apache.cordova.CordovaInterface, java.util.List, org.apache.cordova.CordovaPreferences)
+<org.apache.cordova.CordovaWebViewImpl: boolean isButtonPlumbedToJs(int)>(int)
+<org.apache.cordova.CordovaWebViewImpl: void loadUrl(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CordovaWebViewImpl: void loadUrlIntoView(java.lang.String,boolean)>(java.lang.String, boolean)
+<org.apache.cordova.CordovaWebViewImpl: void onNewIntent(android.content.Intent)>(android.content.Intent)
+<org.apache.cordova.CordovaWebViewImpl: java.lang.Object postMessage(java.lang.String,java.lang.Object)>(java.lang.String, java.lang.Object)
+<org.apache.cordova.CordovaWebViewImpl: void sendJavascript(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CordovaWebViewImpl: void sendPluginResult(org.apache.cordova.PluginResult,java.lang.String)>(org.apache.cordova.PluginResult, java.lang.String)
+<org.apache.cordova.CordovaWebViewImpl: void setButtonPlumbedToJs(int,boolean)>(int, boolean)
+<org.apache.cordova.CordovaWebViewImpl: void showWebPage(java.lang.String,boolean,boolean,java.util.Map)>(java.lang.String, boolean, boolean, java.util.Map)
+<org.apache.cordova.CordovaHttpAuthHandler: void <init>(android.webkit.HttpAuthHandler)>(android.webkit.HttpAuthHandler)
+<org.apache.cordova.CordovaHttpAuthHandler: void proceed(java.lang.String,java.lang.String)>(java.lang.String, java.lang.String)
+<org.apache.cordova.PluginManager: void <init>(org.apache.cordova.CordovaWebView,org.apache.cordova.CordovaInterface,java.util.Collection)>(org.apache.cordova.CordovaWebView, org.apache.cordova.CordovaInterface, java.util.Collection)
+<org.apache.cordova.PluginManager: org.apache.cordova.CordovaPlugin instantiatePlugin(java.lang.String)>(java.lang.String)
+<org.apache.cordova.PluginManager: void addService(java.lang.String,java.lang.String)>(java.lang.String, java.lang.String)
+<org.apache.cordova.PluginManager: void addService(org.apache.cordova.PluginEntry)>(org.apache.cordova.PluginEntry)
+<org.apache.cordova.PluginManager: void exec(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>(java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+<org.apache.cordova.PluginManager: org.apache.cordova.CordovaPlugin getPlugin(java.lang.String)>(java.lang.String)
+<org.apache.cordova.PluginManager: void onConfigurationChanged(android.content.res.Configuration)>(android.content.res.Configuration)
+<org.apache.cordova.PluginManager: void onNewIntent(android.content.Intent)>(android.content.Intent)
+<org.apache.cordova.PluginManager: boolean onOverrideUrlLoading(java.lang.String)>(java.lang.String)
+<org.apache.cordova.PluginManager: void onPause(boolean)>(boolean)
+<org.apache.cordova.PluginManager: boolean onReceivedClientCertRequest(org.apache.cordova.CordovaWebView,org.apache.cordova.ICordovaClientCertRequest)>(org.apache.cordova.CordovaWebView, org.apache.cordova.ICordovaClientCertRequest)
+<org.apache.cordova.PluginManager: boolean onReceivedHttpAuthRequest(org.apache.cordova.CordovaWebView,org.apache.cordova.ICordovaHttpAuthHandler,java.lang.String,java.lang.String)>(org.apache.cordova.CordovaWebView, org.apache.cordova.ICordovaHttpAuthHandler, java.lang.String, java.lang.String)
+<org.apache.cordova.PluginManager: void onResume(boolean)>(boolean)
+<org.apache.cordova.PluginManager: java.lang.Object postMessage(java.lang.String,java.lang.Object)>(java.lang.String, java.lang.Object)
+<org.apache.cordova.PluginManager: android.net.Uri remapUri(android.net.Uri)>(android.net.Uri)
+<org.apache.cordova.PluginManager: void setPluginEntries(java.util.Collection)>(java.util.Collection)
+<org.apache.cordova.PluginManager: boolean shouldAllowBridgeAccess(java.lang.String)>(java.lang.String)
+<org.apache.cordova.PluginManager: boolean shouldAllowNavigation(java.lang.String)>(java.lang.String)
+<org.apache.cordova.PluginManager: boolean shouldAllowRequest(java.lang.String)>(java.lang.String)
+<org.apache.cordova.PluginManager: java.lang.Boolean shouldOpenExternalUrl(java.lang.String)>(java.lang.String)
+<org.apache.cordova.Config: void init(android.app.Activity)>(android.app.Activity)
+<org.apache.cordova.CordovaPreferences: boolean contains(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CordovaPreferences: boolean getBoolean(java.lang.String,boolean)>(java.lang.String, boolean)
+<org.apache.cordova.CordovaPreferences: double getDouble(java.lang.String,double)>(java.lang.String, double)
+<org.apache.cordova.CordovaPreferences: int getInteger(java.lang.String,int)>(java.lang.String, int)
+<org.apache.cordova.CordovaPreferences: java.lang.String getString(java.lang.String,java.lang.String)>(java.lang.String, java.lang.String)
+<org.apache.cordova.CordovaPreferences: void set(java.lang.String,double)>(java.lang.String, double)
+<org.apache.cordova.CordovaPreferences: void set(java.lang.String,int)>(java.lang.String, int)
+<org.apache.cordova.CordovaPreferences: void set(java.lang.String,java.lang.String)>(java.lang.String, java.lang.String)
+<org.apache.cordova.CordovaPreferences: void set(java.lang.String,boolean)>(java.lang.String, boolean)
+<org.apache.cordova.CordovaPreferences: void setPreferencesBundle(android.os.Bundle)>(android.os.Bundle)
+<org.apache.cordova.CallbackMap: android.util.Pair getAndRemoveCallback(int)>(int)
+<org.apache.cordova.CallbackMap: int registerCallback(org.apache.cordova.CordovaPlugin,int)>(org.apache.cordova.CordovaPlugin, int)
+<org.apache.cordova.ResumeCallback: void <init>(java.lang.String,org.apache.cordova.PluginManager)>(java.lang.String, org.apache.cordova.PluginManager)
+<org.apache.cordova.ResumeCallback: void sendPluginResult(org.apache.cordova.PluginResult)>(org.apache.cordova.PluginResult)
+<org.apache.cordova.ICordovaClientCertRequest: void proceed(java.security.PrivateKey,java.security.cert.X509Certificate[])>(java.security.PrivateKey, java.security.cert.X509Certificate())
+<org.apache.cordova.CoreAndroid: java.lang.Object getBuildConfigValue(android.content.Context,java.lang.String)>(android.content.Context, java.lang.String)
+<org.apache.cordova.CoreAndroid: void sendEventMessage(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CoreAndroid: void sendEventMessage(org.apache.cordova.PluginResult)>(org.apache.cordova.PluginResult)
+<org.apache.cordova.CoreAndroid: boolean execute(java.lang.String,org.json.JSONArray,org.apache.cordova.CallbackContext)>(java.lang.String, org.json.JSONArray, org.apache.cordova.CallbackContext)
+<org.apache.cordova.CoreAndroid: void fireJavascriptEvent(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CoreAndroid: void loadUrl(java.lang.String,org.json.JSONObject)>(java.lang.String, org.json.JSONObject)
+<org.apache.cordova.CoreAndroid: void overrideBackbutton(boolean)>(boolean)
+<org.apache.cordova.CoreAndroid: void overrideButton(java.lang.String,boolean)>(java.lang.String, boolean)
+<org.apache.cordova.CoreAndroid: void sendResumeEvent(org.apache.cordova.PluginResult)>(org.apache.cordova.PluginResult)
+<org.apache.cordova.PluginEntry: void <init>(java.lang.String,java.lang.String,boolean)>(java.lang.String, java.lang.String, boolean)
+<org.apache.cordova.PluginEntry: void <init>(java.lang.String,java.lang.String,boolean,org.apache.cordova.CordovaPlugin)>(java.lang.String, java.lang.String, boolean, org.apache.cordova.CordovaPlugin)
+<org.apache.cordova.PluginEntry: void <init>(java.lang.String,org.apache.cordova.CordovaPlugin)>(java.lang.String, org.apache.cordova.CordovaPlugin)
+<org.apache.cordova.ICordovaHttpAuthHandler: void proceed(java.lang.String,java.lang.String)>(java.lang.String, java.lang.String)
+<org.apache.cordova.PluginResult: org.apache.cordova.PluginResult getMultipartMessage(int)>(int)
+<org.apache.cordova.PluginResult: void setKeepCallback(boolean)>(boolean)
+<org.apache.cordova.PluginResult: java.lang.String toCallbackString(java.lang.String)>(java.lang.String)
+<org.apache.cordova.PluginResult: java.lang.String toErrorCallbackString(java.lang.String)>(java.lang.String)
+<org.apache.cordova.PluginResult: java.lang.String toSuccessCallbackString(java.lang.String)>(java.lang.String)
+<org.apache.cordova.NativeToJsMessageQueue: void addJavaScript(java.lang.String)>(java.lang.String)
+<org.apache.cordova.NativeToJsMessageQueue: void addPluginResult(org.apache.cordova.PluginResult,java.lang.String)>(org.apache.cordova.PluginResult, java.lang.String)
+<org.apache.cordova.NativeToJsMessageQueue: java.lang.String popAndEncode(boolean)>(boolean)
+<org.apache.cordova.NativeToJsMessageQueue: void setBridgeMode(int)>(int)
+<org.apache.cordova.NativeToJsMessageQueue: void setPaused(boolean)>(boolean)
+<org.apache.cordova.CordovaInterfaceImpl: void <init>(android.app.Activity)>(android.app.Activity)
+<org.apache.cordova.CordovaInterfaceImpl: void <init>(android.app.Activity,java.util.concurrent.ExecutorService)>(android.app.Activity, java.util.concurrent.ExecutorService)
+<org.apache.cordova.CordovaInterfaceImpl: boolean hasPermission(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CordovaInterfaceImpl: boolean onActivityResult(int,int,android.content.Intent)>(int, int, android.content.Intent)
+<org.apache.cordova.CordovaInterfaceImpl: void onCordovaInit(org.apache.cordova.PluginManager)>(org.apache.cordova.PluginManager)
+<org.apache.cordova.CordovaInterfaceImpl: java.lang.Object onMessage(java.lang.String,java.lang.Object)>(java.lang.String, java.lang.Object)
+<org.apache.cordova.CordovaInterfaceImpl: void onRequestPermissionResult(int,java.lang.String[],int[])>(int, java.lang.String(), int())
+<org.apache.cordova.CordovaInterfaceImpl: void onSaveInstanceState(android.os.Bundle)>(android.os.Bundle)
+<org.apache.cordova.CordovaInterfaceImpl: void requestPermission(org.apache.cordova.CordovaPlugin,int,java.lang.String)>(org.apache.cordova.CordovaPlugin, int, java.lang.String)
+<org.apache.cordova.CordovaInterfaceImpl: void requestPermissions(org.apache.cordova.CordovaPlugin,int,java.lang.String[])>(org.apache.cordova.CordovaPlugin, int, java.lang.String())
+<org.apache.cordova.CordovaInterfaceImpl: void restoreInstanceState(android.os.Bundle)>(android.os.Bundle)
+<org.apache.cordova.CordovaInterfaceImpl: void setActivityResultCallback(org.apache.cordova.CordovaPlugin)>(org.apache.cordova.CordovaPlugin)
+<org.apache.cordova.CordovaInterfaceImpl: void setActivityResultRequestCode(int)>(int)
+<org.apache.cordova.CordovaInterfaceImpl: void startActivityForResult(org.apache.cordova.CordovaPlugin,android.content.Intent,int)>(org.apache.cordova.CordovaPlugin, android.content.Intent, int)
+<org.apache.cordova.CordovaClientCertRequest: void <init>(android.webkit.ClientCertRequest)>(android.webkit.ClientCertRequest)
+<org.apache.cordova.CordovaClientCertRequest: void proceed(java.security.PrivateKey,java.security.cert.X509Certificate[])>(java.security.PrivateKey, java.security.cert.X509Certificate())
+<org.apache.cordova.CordovaResourceApi: void <init>(android.content.Context,org.apache.cordova.PluginManager)>(android.content.Context, org.apache.cordova.PluginManager)
+<org.apache.cordova.CordovaResourceApi: void assertNonRelative(android.net.Uri)>(android.net.Uri)
+<org.apache.cordova.CordovaResourceApi: java.lang.String getDataUriMimeType(android.net.Uri)>(android.net.Uri)
+<org.apache.cordova.CordovaResourceApi: java.lang.String getMimeTypeFromPath(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CordovaResourceApi: int getUriType(android.net.Uri)>(android.net.Uri)
+<org.apache.cordova.CordovaResourceApi: void copyResource(android.net.Uri,android.net.Uri)>(android.net.Uri, android.net.Uri)
+<org.apache.cordova.CordovaResourceApi: void copyResource(android.net.Uri,java.io.OutputStream)>(android.net.Uri, java.io.OutputStream)
+<org.apache.cordova.CordovaResourceApi: java.net.HttpURLConnection createHttpConnection(android.net.Uri)>(android.net.Uri)
+<org.apache.cordova.CordovaResourceApi: java.lang.String getMimeType(android.net.Uri)>(android.net.Uri)
+<org.apache.cordova.CordovaResourceApi: java.io.File mapUriToFile(android.net.Uri)>(android.net.Uri)
+<org.apache.cordova.CordovaResourceApi: java.io.OutputStream openOutputStream(android.net.Uri)>(android.net.Uri)
+<org.apache.cordova.CordovaResourceApi: java.io.OutputStream openOutputStream(android.net.Uri,boolean)>(android.net.Uri, boolean)
+<org.apache.cordova.CordovaResourceApi: java.lang.String remapPath(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CordovaResourceApi: android.net.Uri remapUri(android.net.Uri)>(android.net.Uri)
+<org.apache.cordova.CordovaResourceApi: void setThreadCheckingEnabled(boolean)>(boolean)
+<org.apache.cordova.ConfigXmlParser: void setStartUrl(java.lang.String)>(java.lang.String)
+<org.apache.cordova.ConfigXmlParser: void handleEndTag(org.xmlpull.v1.XmlPullParser)>(org.xmlpull.v1.XmlPullParser)
+<org.apache.cordova.ConfigXmlParser: void handleStartTag(org.xmlpull.v1.XmlPullParser)>(org.xmlpull.v1.XmlPullParser)
+<org.apache.cordova.ConfigXmlParser: void parse(android.content.Context)>(android.content.Context)
+<org.apache.cordova.ConfigXmlParser: void parse(org.xmlpull.v1.XmlPullParser)>(org.xmlpull.v1.XmlPullParser)
+<org.apache.cordova.AuthenticationToken: void setPassword(java.lang.String)>(java.lang.String)
+<org.apache.cordova.AuthenticationToken: void setUserName(java.lang.String)>(java.lang.String)
+<org.apache.cordova.CordovaDialogsHelper: void <init>(android.content.Context)>(android.content.Context)

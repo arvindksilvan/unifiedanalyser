@@ -1,0 +1,34 @@
+[
+    {
+        "id": "cordova-plugin-device.device",
+        "file": "plugins/cordova-plugin-device/www/device.js",
+        "pluginId": "cordova-plugin-device",
+        "clobbers": [
+            "device"
+        ]
+    },
+    {
+        "id": "com.plugin.imei.IMEIPlugin",
+        "file": "plugins/com.plugin.imei/www/imei.js",
+        "pluginId": "com.plugin.imei",
+        "clobbers": [
+            "window.plugins.imei"
+        ]
+    },
+    {
+        "id": "com.joandilee.imeiplugin.imeiplugin",
+        "file": "plugins/com.joandilee.imeiplugin/www/imeiplugin.js",
+        "pluginId": "com.joandilee.imeiplugin",
+        "clobbers": [
+            "imeiplugin"
+        ]
+    },
+    {
+        "id": "cordova-sms-plugin.Sms",
+        "file": "plugins/cordova-sms-plugin/www/sms.js",
+        "pluginId": "cordova-sms-plugin",
+        "clobbers": [
+            "window.sms"
+        ]
+    }
+]

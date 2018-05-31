@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="automation-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../hybridflow/libs/soot-jsa/automation/1.0/automation-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

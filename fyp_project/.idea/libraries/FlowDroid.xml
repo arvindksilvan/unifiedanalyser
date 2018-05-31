@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="FlowDroid">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../hybridflow/src/main/resources/flowdroid/FlowDroid.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <div data-role="page">
+
+        <div data-role="header">
+            <h1 id="demo"></h1>
+        </div>
+        <!-- /header -->
+
+        <div data-role="content">
+		<label for="txtNum1">Num 1:</label>
+            <input id="txtNum1" name="txtNum1" type="text" value="" />
+            <label for="txtNum2">Num 2:</label>
+            <input id="txtNum2" name="txtNum2" type="text" value="" /> <a data-inline="true" data-role="button" onclick="Add()"> Add </a> Result : <label id="lblResult"></label>
+			</br>
+		</div>
+        <!-- /content -->
+
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+
+
+    </div>
+    <!-- /page -->
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script> initialize(); </script>
+</body>
+
+</html>
